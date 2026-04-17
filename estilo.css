@@ -12,6 +12,15 @@ h1 {
     color: #385555;
 }
 
+.lista-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 90%;
+    max-width: 960px;
+    flex-wrap:wrap;
+    gap: 16px;
+}
 
 .lista-container ul li {
     background-color: white;
