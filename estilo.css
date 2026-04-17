@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #385555;
+}
+
+.lista-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    width: 90%;
+    max-width: 960px;
+    flex-wrap:wrap;
+    gap: 16px;
+}
+
+.lista-container ul li {
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    flex-basis: 280px;
+    background-image: url(../desafio_lista_contatos/img/thumb02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.lista-item_imagem img {
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 120px;
+}
+
+.lista-contato-nome {
+    font-size: 24px;
+    margin: 0px;
+    color: #385555;
+}
+
+.lista-item_botoes {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e5e5e5;
+    padding: 16px;
+    gap: 16px;
